@@ -1,0 +1,167 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #1D2023;
+    font-family: "Roboto";
+    color: #FFFFFF;
+}
+.head{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #262B32;
+    width: 100%;
+    height: 80px;
+    box-shadow: 3px 3px 5px black;
+}
+.logo{
+    position: absolute;
+    left: 16px;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+.linha1{
+    position: absolute;
+    left: 113px;
+}
+.titulos{
+    position: absolute;
+    font-size: 36px;
+    opacity: 25%; 
+    left: 137px;
+}
+.quadrado{
+    position: relative;
+    right: 32px;
+    width: 48px;
+    height: 48px;
+    background-color: #30373E;
+    box-shadow: 2px 2px 5px black;
+    margin-right: 15px;
+    border-radius: 5px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 700ms;
+}
+.icons{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.casa{
+    display: flex;
+    position: relative;
+    left: 41px;
+    align-items: center;
+    height: 80px;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 630px;
+    justify-content: space-evenly;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 228px;
+    height: 529px;
+    padding-left: 40px;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+}
+.opacidadeTitulo{
+    opacity: 60%;
+}
+.fonte{
+    font-size: 20px;
+}
+.ultimo{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    font-size: 14px;
+    opacity: 30%;
+}
+.numero{
+    position: absolute;
+    top: 37px;
+    left: 22px;
+    opacity: 87%;
+}
+.posMedida{
+    position: absolute;
+    top: 37px;
+    left: 81px;
+}
+.posMedida2{
+    position: absolute;
+    top: 37px;
+    left: 58px;
+}
+.quadradoCinza{
+    position: relative;
+    background-color: #30373E;
+    width: 228px;
+    height: 80px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    border-radius: 5px;
+}
+.municipios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 152px;
+    height: 376px;
+    padding-right: 23px;
+}
+.cidades{
+    font-size: 24px;
+    opacity: 30%;
+}
+.lista{
+    width: 100%;
+    height: 326px;
+    background-color: #262B32;
+    border-radius: 5px;
+}
+ul{
+    position: relative;
+    font-size: 12px;
+    opacity: 90%;
+    right: 23px;
+    list-style: none;
+}
+li{
+    margin-top: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #30373E;
+    text-align: center;
+    border-radius: 5px;
+    width: 120px;
+}
+@media screen and (max-width: 780px) {
+    .head{
+        display: grid;
+        height: 220px;
+    } 
+    .logo{
+        width: 100px;
+    }
+    .quadrado{
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 655px) {
+    .titulos{
+        font-size: 7vw;
+        left: 130px;
+    }
+}
